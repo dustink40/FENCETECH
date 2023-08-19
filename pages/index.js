@@ -63,15 +63,15 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>DECK-EXPERT | buildspace</title>
+        <title>FENCE-TECH | buildspace</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>"Deck-Expert: Mastering the Art of Deck Construction"</h1>
+            <h1>"FenceTech: Building Fences Beyond Limits"</h1>
           </div>
           <div className="header-subtitle">
-            <h2>"Unlocking Tips, Techniques, and Expertise for Stunning Decks"</h2>
+            <h2>"Experience the synergy of technology and craftsmanship in every fence"</h2>
           </div>
         </div>
         <div className="logo-container">
@@ -80,7 +80,7 @@ const Home = () => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="Hello, I am DECK-EXPERT. How can i assist you in your deck project?"
+            placeholder="Hello, I am FENCE-TECH. How can i assist you in your fence project?"
             value={userInput}
             onChange={onUserChangedText}
           />
