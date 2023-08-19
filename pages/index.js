@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import deckexpertLogo from '../assets/deckexpert-logo.png';
+import fencetechLogo from '../assets/fencetech-logo.png';
 
 const Home = () => {
   const [userInput, setUserInput] = useState("");
@@ -75,7 +75,7 @@ const Home = () => {
           </div>
         </div>
         <div className="logo-container">
-          <Image src={deckexpertLogo} alt="Your logo" />
+          <Image src={fencetechLogo} alt="Your logo" />
         </div>
         <div className="prompt-container">
           <textarea
@@ -113,7 +113,7 @@ const Home = () => {
       <div className="badge-container grow">
         <a href="https://buildspace.so/builds/ai-writer" target="_blank" rel="noreferrer">
           <div className="badge">
-            <Image src={deckexpertLogo} className="balls" alt="Your logo" />
+            <Image src={fencetechLogo} className="balls" alt="Your logo" />
             <p>build with buildspace</p>
           </div>
         </a>
